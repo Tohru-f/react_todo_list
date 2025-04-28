@@ -65,6 +65,10 @@ button:hover {
   text-align: center;
 }
 
+.parent-list {
+  list-style: none;
+}
+
 .todo-item {
   margin: 6px;
 }

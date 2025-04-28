@@ -59,7 +59,7 @@ export const Todo = () => {
       </div>
       <div className='incomplete-area'>
         <p className='title'>TODOリスト</p>
-        <ul>
+        <ul className='parent-list'>
           {todos.map((todo) => {
             return (
               <li key={todo.id}>

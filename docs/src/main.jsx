@@ -6,5 +6,5 @@ import { Todo } from './Todo.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Todo />
-  </StrictMode>,
+  </StrictMode>
 )

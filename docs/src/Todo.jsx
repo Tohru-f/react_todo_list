@@ -62,7 +62,7 @@ export const Todo = () => {
         <ul className='parent-list'>
           {todos.map((todo) => {
             return (
-              <li key={todo.id}>
+              <li key={todo.id} className='parent-list'>
                 <div className='list-row'>
                   {todo.checked ? (
                     <input type="checkbox" onClick={() => onClickCheckBox(todo.id)} checked={true} readOnly />
